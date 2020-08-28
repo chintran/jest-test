@@ -7,7 +7,7 @@ This repository to build jest test environment
     - cd to souce code
     - Run: docker build -t jest-img .
 2. Make container
-    - Run: docker run -itd --name jest-test -v \$(pwd)/:/app/source/ jest-img
+    - Run: docker run -itd --name jest-test -v \$(pwd)/:/app/ jest-img
 3. Run test example
     - loggin to container and cd /app
     - yarn install

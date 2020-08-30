@@ -20,4 +20,6 @@ workflows:
     build_test_and_lint:
         jobs:
             - build
-            - test
+            - test:
+                  requires:
+                      - build

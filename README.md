@@ -11,4 +11,4 @@ This repository to build jest test environment
 3. Run test example
     - loggin to container and cd /app
     - yarn install
-    - yarn test
+    - yarn test (test --coverage)
